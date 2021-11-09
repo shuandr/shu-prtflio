@@ -1,0 +1,448 @@
+[
+    {
+        "id": "wbst-dmdoor-rcnt",
+        "year": "2020",
+        "imgPreview": "wbst-dmdoor.webp",
+        "txtPreviewUA": "Веб-сайт для виробника ексклюзивних дверей \nDM Doors",
+        "txtPreviewEN": "web-site for DM Doors company",
+        "imgs": ["0-dmd.webp"],
+        "extLink": "https://d-m.com.ua",
+        "extLinkView": "d-m.com.ua"
+    },
+    {
+        "id": "wbst-klnd-rcnt",
+        "year": "2016–2020",
+        "imgPreview": "wbst-klnd.webp",
+        "txtPreviewUA": "Веб-сайт для рамарні-галереї \nКлейнод",
+        "txtPreviewEN": "web-site for framing company \nKleynod",
+        "imgs": ["0-klnd.webp"],
+        "extLink": "https://rama.lviv.ua",
+        "extLinkView": "rama.lviv.ua"
+    },
+    {
+        "id": "wbst-r4u-rcnt",
+        "year": "2020",
+        "imgPreview": "wbst-r4u.webp",
+        "txtPreviewUA": "Лендінг для спортивного клубу \nRun4U",
+        "txtPreviewEN": "Landing page for sport club \nRun4U",
+        "imgs": ["0-r4u.webp"],
+        "extLink": "https://run4u.club",
+        "extLinkView": "run4u.club"
+    },
+    {
+        "id": "wbst-s4u-rcnt",
+        "year": "2020",
+        "imgPreview": "wbst-s4u.webp",
+        "txtPreviewUA": "Лендінг для спортивного клубу \nSwim4U",
+        "txtPreviewEN": "Landing page for sport club \nSwim4U",
+        "imgs": ["0-s4u.webp"],
+        "extLink": "https://swim4u.club",
+        "extLinkView": "swim4u.club"
+    },
+    {
+        "id": "wbst-shrwd-rcnt",
+        "year": "2016–2021",
+        "imgPreview": "wbst-shrwd.webp",
+        "txtPreviewUA": "Веб-сайт для готельно-відпочинкового \nкомплексу «Шервуд»",
+        "txtPreviewEN": "Web-site for Sherwood hotel & resort",
+        "imgs": ["0-shrwd.webp"],
+        "extLink": "https://sherwood-resort.com",
+        "extLinkView": "sherwood-resort.com"
+    },
+
+    {
+        "id": "dtp-buk-rcnt",
+        "year": "2020",
+        "imgPreview": "dtp-buk.webp",
+        "txtPreviewUA": "Дизайн і верстка ґлянцевого журналу\nNTN-Буковель 2011–2020. 15 видань",
+        "txtPreviewEN": "Editorial design NTN-Bukovel\n2011–2020. 15 issues",
+        "imgs": ["0-dtp-buk.webp"],
+        "intro": "бла-бла-бла",
+        "extLink": "https://issuu.com/shuandrrr",
+        "extLinkView": "full issues"
+    },
+    {
+        "id": "dtp-eco-rcnt",
+        "year": "2020",
+        "imgPreview": "dtp-eco.webp",
+        "txtPreviewUA": "Дизайн і верстка англомовної версії \nтуристичного путівника «Еко мандри»",
+        "txtPreviewEN": "Editorial design of english version \nEco-Mandry",
+        "imgs": ["0-dtp-eco.webp"],
+        "intro": "бла-бла-бла",
+        "extLinkView": ""
+    },
+    {
+        "id": "dtp-guide-rcnt",
+        "year": "2019",
+        "imgPreview": "dtp-guide.webp",
+        "txtPreviewUA": "Дизайн і верстка туристичного путівника\nПерсональний гід Львівщиною",
+        "txtPreviewEN": "Editorial design \nLviv Region Personal Guide",
+        "imgs": ["0-dtp-guide.webp"],
+        "intro": "бла-бла-бла",
+        "extLinkView": ""
+    },
+    {
+        "id": "dtp-gastro",
+        "year": "2018",
+        "imgPreview": "dtp-gastro.webp",
+        "txtPreviewUA": "Дизайн і верстка гастрономічного путівника \nГастро мандри Львівщиною",
+        "txtPreviewEN": "Editorial design \nGastro Travels. Lviv Region",
+        "imgs": ["0-dtp-gastro.webp"],
+        "intro": "бла-бла-бла",
+        "extLinkView": ""
+    },
+    {
+        "id": "dtp-dmd",
+        "year": "2017",
+        "imgPreview": "dtp-dmd.webp",
+        "txtPreviewUA": "Дизайн і верстка каталогу \nексклюзивних дверей DM-Doors",
+        "txtPreviewEN": "DM-Doors catalogue design",
+        "imgs": ["0-dtp-dmd.webp"],
+        "intro": "бла-бла-бла",
+        "extLinkView": ""
+    },
+    {
+        "id": "logo-carpcult-rcnt",
+        "year": "2021",
+        "imgPreview": "logo-carpcult.webp",
+        "txtPreviewUA": "Логотип та айдентика для фестивалю \n«Дні карпатської культури»",
+        "txtPreviewEN": "Logo & identity for festival \n«Carpathian culture days»",
+        "imgs": ["0-logo-carpcult.webp"]
+    },
+    {
+        "id": "logo-outlet-rcnt",
+        "year": "2020",
+        "imgPreview": "logo-outlet.webp",
+        "txtPreviewUA": "Логотип та айдентика для outlet-крамниці \nвзуттєвої компанії CCC",
+        "txtPreviewEN": "Logo & identity for CCC Outlet",
+        "imgs": ["0-logo-ccc.webp"]
+    },
+    {
+        "id": "logo-richka-rcnt",
+        "year": "2020",
+        "imgPreview": "logo-richka.webp",
+        "txtPreviewUA": "Логотип та айдентика для кемпінгу \n«Мала річка»",
+        "txtPreviewEN": "Logo & identity for camping \nMala Richka",
+        "imgs": ["0-logo-river.webp"]
+    },
+    {
+        "id": "logo-runkumpel-rcnt",
+        "year": "2020",
+        "imgPreview": "logo-runkumpel.webp",
+        "txtPreviewUA": "Логотип для фанового пивного забігу \n«Run Kumpel Run»",
+        "txtPreviewEN": "Logo for beer fun run event\nRun Kumpel Run",
+        "imgs": ["0-logo-runkumpel.webp"]
+    },
+    {
+        "id": "logo-summit-rcnt",
+        "year": "2020",
+        "imgPreview": "logo-summit.webp",
+        "txtPreviewUA": "Логотип та айдентика для туристичної аґенції \n«Summit club»",
+        "txtPreviewEN": "Logo & identity for туристичної аґенції \n«Summit club»",
+        "imgs": ["0-logo-smmt.webp"]
+    },
+    {
+        "id": "logo-granat-rcnt",
+        "year": "2018",
+        "imgPreview": "logo-granat.webp",
+        "txtPreviewUA": "Логотип та айдентика онлайн-сервісу \nавтоматизації закупівель для HoReCa «Granat garden»",
+        "txtPreviewEN": "Logo & identity for HoReCa supply \nautomatization service «Granat garden»",
+        "imgs": ["0-logo-grnt.webp"]
+    },
+    {
+        "id": "logo-hayduk-rcnt",
+        "year": "2018",
+        "imgPreview": "logo-hayduk.webp",
+        "txtPreviewUA": "Логотип для дитячої клініки \n«Гайдук педіатрія»",
+        "txtPreviewEN": "Logo for Hayduk pediatry clinic",
+        "imgs": ["0-logo-hayduk.webp"]
+    },
+    {
+        "id": "run-swim-logo-rcnt",
+        "year": "2018",
+        "imgPreview": "run-swim-logo.webp",
+        "txtPreviewUA": "Серія логотипів та айдентика \nдля мережі спортивних клубів \nRun4U, Swim4U, Ride4U",
+        "txtPreviewEN": "Logotypes & identity for sport clubs\nRun4U, Swim4U, Ride4U",
+        "imgs": ["0-logo-r4u.webp", "0-logo-s4u.webp", "0-logo-rd4u.webp"]
+    },
+    {
+        "id": "logo-dmdoors-rcnt",
+        "year": "2017",
+        "imgPreview": "logo-dmdoors.webp",
+        "txtPreviewUA": "Логотип та айдентика для виробника \nексклюзивних дверей DM Doors",
+        "txtPreviewEN": "Logo & identity for DM Doors",
+        "imgs": ["0-logo-dmd.webp"]
+    },
+    {
+        "id": "logo-emberli",
+        "year": "2017",
+        "imgPreview": "logo-emberli.webp",
+        "txtPreviewUA": "Логотип для крамниці \nшкіряного взуття та сумок Emberli",
+        "txtPreviewEN": "Logo leather shop Emberli",
+        "imgs": ["0-logo-embrl.webp"]
+    },
+    {
+        "id": "logo-ifrace-rcnt",
+        "year": "2017",
+        "imgPreview": "logo-ifrace.webp",
+        "txtPreviewUA": "Логотип для мультиспортивних змагань \nнавколо Івано-Франківська IF-race",
+        "txtPreviewEN": "Logo for multisport event IF-race",
+        "imgs": ["0-logo-ifrace.webp"]
+    },
+    {
+        "id": "logo-paradox",
+        "year": "2017",
+        "imgPreview": "logo-paradox.webp",
+        "txtPreviewUA": "Логотип та айдентика \nдля ресторану клубу Paradox",
+        "txtPreviewEN": "Logo & identity for \n Paradox restaurant-club",
+        "imgs": ["0-logo-prdx.webp"]
+    },
+    {
+        "id": "logo-polis",
+        "year": "2017",
+        "imgPreview": "logo-polis.webp",
+        "txtPreviewUA": "Логотип та айдентика \nЦентру автовиплат «Поліс»",
+        "txtPreviewEN": "Logo & identity for \nPolis law firm",
+        "imgs": ["0-logo-polis.webp"]
+    },
+    {
+        "id": "logo-vet",
+        "year": "2017",
+        "imgPreview": "logo-vet.webp",
+        "txtPreviewUA": "Редизайн логотипу Львівської академії \nветеринарної медицини",
+        "txtPreviewEN": "Logo redesign for Lviv University of Veterinary Medicine and Biotechnologies",
+        "imgs": ["0-logo-vet.webp"]
+    },
+    {
+        "id": "bellecore-logo",
+        "year": "2016",
+        "imgPreview": "bellecore-logo.webp",
+        "txtPreviewUA": "Логотип для ювелірного бренду \nBelleCore",
+        "txtPreviewEN": "Logo for jewellery brand \nBelleCore",
+        "imgs": ["0-logo-belle.webp", "1-logo-belle.webp"]
+    },
+    {
+        "id": "logo-ergosit",
+        "year": "2016",
+        "imgPreview": "logo-ergosit.webp",
+        "txtPreviewUA": "Логотип для виробника \nергономічних крісел Ergosit",
+        "txtPreviewEN": "Logo for ergonomic chairs maker \nErgosit",
+        "imgs": ["0-logo-ergo.webp"]
+    },
+    {
+        "id": "logo-kolishenko",
+        "year": "2015",
+        "imgPreview": "logo-kolishenko.webp",
+        "txtPreviewUA": "Логотип та айдентика юридичної компанії \n«Колішенко, Опалко і партнери»",
+        "txtPreviewEN": "Logo & identity for law firm \nKolishenko, Opalko & partners",
+        "imgs": ["0-logo-klshnk.webp"]
+    },
+    {
+        "id": "logo-studnia",
+        "year": "2015",
+        "imgPreview": "logo-studnia.webp",
+        "txtPreviewUA": "Логотип для бурової компанії \n«Студня»",
+        "txtPreviewEN": "Logo for Studnia boring company",
+        "imgs": ["0-logo-stdna.webp"]
+    },
+    {
+        "id": "forma-logo",
+        "year": "2013",
+        "imgPreview": "forma-logo.webp",
+        "txtPreviewUA": "Логотип та айдентика \nдля фітнес-клубу Forma",
+        "txtPreviewEN": "Logo & identity \nfor Forma fitness club",
+        "imgs": ["0-logo-forma.webp", "1-logo-forma.webp"]
+    },
+    {
+        "id": "logo-blyzenko",
+        "year": "2013",
+        "imgPreview": "logo-blyzenko.webp",
+        "txtPreviewUA": "Логотип та айдентика \nдля мережі супермаркетів «Близенько»",
+        "txtPreviewEN": "Logo & identity  \nfor Blyzenko supermarkets",
+        "imgs": ["0-logo-blznko.webp"]
+    },
+    {
+        "id": "logo-happybee",
+        "year": "2013",
+        "imgPreview": "logo-happybee.webp",
+        "txtPreviewUA": "Логотип та айдентика \nдля дистриб’ютора меду «Весела бджілка»",
+        "txtPreviewEN": "Logo & identity \nfor honey vendor Happy Bee",
+        "imgs": ["0-logo-happy.webp"]
+    },
+    {
+        "id": "logo-veseli",
+        "year": "2013",
+        "imgPreview": "logo-veseli.webp",
+        "txtPreviewUA": "Логотип для клубу родинного виховання \n«Веселі та розумні»",
+        "txtPreviewEN": "Logo for Cheerful & Smart kindergarten",
+        "imgs": ["0-logo-smart.webp"]
+    },
+    {
+        "id": "panther-logo",
+        "year": "2013",
+        "imgPreview": "panther-logo.webp",
+        "txtPreviewUA": "Логотип та айдентика \nдля школи танцю «Біла пантера»",
+        "txtPreviewEN": "Logo & identity  \nfor dance school White Panther",
+        "imgs": ["0-logo-panther.webp", "1-logo-panther.webp"]
+    },
+    {
+        "id": "logo-astoria",
+        "year": "2012",
+        "imgPreview": "logo-astoria.webp",
+        "txtPreviewUA": "Відрисовка логотипу (на основі зразка 20-их років) для готелю «Асторія»",
+        "txtPreviewEN": "Logo for Astoria hotel",
+        "imgs": ["0-logo-astor.webp"]
+    },
+    {
+        "id": "logo-construct",
+        "year": "2012",
+        "imgPreview": "logo-construct.webp",
+        "txtPreviewUA": "Логотип та айдентика для виробника дерев’яних будиночків та саун «Конструктор»",
+        "txtPreviewEN": "Logo & identity for Constructor — wooden saunas maker",
+        "imgs": ["0-logo-const.webp"]
+    },
+    {
+        "id": "logo-galcrown",
+        "year": "2012",
+        "imgPreview": "logo-galcrown.webp",
+        "txtPreviewUA": "Логотип готельно-відпочинкового комплексу \n«Галицька Корона»",
+        "txtPreviewEN": "Logo for Galician Crown \nhotel & resort",
+        "imgs": ["0-logo-crown.webp"]
+    },
+    {
+        "id": "logo-oldroyal",
+        "year": "2012",
+        "imgPreview": "logo-oldroyal.webp",
+        "txtPreviewUA": "Логотип для ресторану «Старий рояль»",
+        "txtPreviewEN": "Logo for Old Piano restaurant",
+        "imgs": ["0-logo-piano.webp"]
+    },
+    {
+        "id": "logo-sidus",
+        "year": "2011",
+        "imgPreview": "logo-sidus.webp",
+        "txtPreviewUA": "Логотип та айдентика для мережі аптек «Сідус»",
+        "txtPreviewEN": "Logo & identity for Sidus pharmacies",
+        "imgs": ["0-logo-sds.webp"]
+    },
+    {
+        "id": "sherwood-logo",
+        "year": "2011",
+        "imgPreview": "sherwood-logo.webp",
+        "txtPreviewUA": "Логотип та айдентика для готельно-відпочинкового комплексу «Шервуд»",
+        "txtPreviewEN": "Logo & identity for Sherwood hotel & resort",
+        "imgs": ["0-logo-shrwd.webp", "1-logo-shrwd.webp"]
+    },
+    {
+        "id": "pckg-asia",
+        "year": "2021",
+        "imgPreview": "pckg-asia.webp",
+        "txtPreviewUA": "Упаковка для доставки продукції \n«Asia Foods»",
+        "txtPreviewEN": "Packaging for delivery Asia Foods",
+        "imgs": ["0-pckg-asia.webp"]
+    },
+    {
+        "id": "pckg-kpc-serek",
+        "year": "2017",
+        "imgPreview": "pckg-kpc-serek.webp",
+        "txtPreviewUA": "Серія етикеток плавлених сирків \nТМ «Купець»",
+        "txtPreviewEN": "Cheese labels for Kupec",
+        "imgs": ["0-pckg-kpc-serek.webp"]
+    },
+    {
+        "id": "pckg-viola",
+        "year": "2017",
+        "imgPreview": "pckg-viola.webp",
+        "txtPreviewUA": "Тендерна пропозиція упаковок \nдля ТМ «Віола»",
+        "txtPreviewEN": "Packaging for Viola \n(tender proposal)",
+        "imgs": ["0-pckg-viola.webp"]
+    },
+    {
+        "id": "pckg-ftviol",
+        "year": "2016",
+        "imgPreview": "pckg-ftviol.webp",
+        "txtPreviewUA": "Серія упаковки фіто-чаїв ТМ «Фітовіол»",
+        "txtPreviewEN": "Packaging for Fitoviol teas\n(Viola brand)",
+        "imgs": ["0-pckg-ftviol.webp"]
+    },
+    {
+        "id": "pckg-kpc-cheese",
+        "year": "2016",
+        "imgPreview": "pckg-kpc-cheese.webp",
+        "txtPreviewUA": "Етикетки для сирів ТМ «Купець»",
+        "txtPreviewEN": "Cheese labels for Kupec",
+        "imgs": ["0-pckg-kpc-cheese.webp"]
+    },
+    {
+        "id": "pckg-vsesmk",
+        "year": "2016",
+        "imgPreview": "pckg-vsesmk.webp",
+        "txtPreviewUA": "Етикетки для ікри та упаковка масла\nТМ «Всесмак»",
+        "txtPreviewEN": "Caviar labels & butter packaging \nfor Vsesmak",
+        "imgs": ["0-pckg-vsesmk.webp"]
+    },
+    {
+        "id": "pckg-bee",
+        "year": "2013",
+        "imgPreview": "pckg-bee.webp",
+        "txtPreviewUA": "Серія етикеток для меду \n«Весела бджілка»",
+        "txtPreviewEN": "Honey labels for Happy Bee brand",
+        "imgs": ["0-pckg-bee.webp"]
+    },
+    {
+        "id": "mdl-bosphor",
+        "year": "2020",
+        "imgPreview": "mdl-bosphor.webp",
+        "txtPreviewUA": "Серія медалей для учасників запливів\nчерез Босфор та Дарданелли",
+        "txtPreviewEN": "Set of medals for Bosphor & Dardanelles swim event",
+        "imgs": ["0-mdl-bosphor.webp"]
+    },
+    {
+        "id": "mdl-indi-swin-rcnt",
+        "year": "2019-2021",
+        "imgPreview": "mdl-indi-swin.webp",
+        "txtPreviewUA": "Серія медалей змагань \nIndependence-swim 2019—2021 ",
+        "txtPreviewEN": "Set of medals for\nIndependence-swim 2019—2022",
+        "imgs": ["0-mdl-indi-swin.webp"]
+    },
+    {
+        "id": "mdl-kaiser-rcnt",
+        "year": "2020",
+        "imgPreview": "mdl-kaiser.webp",
+        "txtPreviewUA": "Медаль для забігу \nKaiserwald Cup 2020",
+        "txtPreviewEN": "Medal for run event\nKaiserwald Cup 2021",
+        "imgs": ["0-mdl-kaiser.webp"]
+    },
+    {
+        "id": "mdl-night-swim",
+        "year": "2020",
+        "imgPreview": "mdl-night-swim.webp",
+        "txtPreviewUA": "Медаль для нічного запливу клубу Swim4U",
+        "txtPreviewEN": "Medal for night swim event \nof Swim4U club",
+        "imgs": ["0-mdl-night-swim.webp"]
+    },
+    {
+        "id": "mdl-quarant",
+        "year": "2020",
+        "imgPreview": "mdl-quarant.webp",
+        "txtPreviewUA": "Медаль для віртуального забігу \nQuarantine Half Marathon 2020",
+        "txtPreviewEN": "Medal for virtual run event\nQuarantine Half Marathon 2021",
+        "imgs": ["0-mdl-quarant.webp"]
+    },
+    {
+        "id": "mdl-swim-first-km",
+        "year": "2021",
+        "imgPreview": "mdl-swim-first-km.webp",
+        "txtPreviewUA": "Серія медалей для клубу Swim4U\nза подолання першого кілометра",
+        "txtPreviewEN": "Set of medals for Swim4U club\nMy first kilometer",
+        "imgs": ["0-mdl-swim-first-km.webp"]
+    },
+    {
+        "id": "mdl-swim-run",
+        "year": "2021",
+        "imgPreview": "mdl-swim-run.webp",
+        "txtPreviewUA": "Медаль для змагань Swim Run",
+        "txtPreviewEN": "Medal for Swim Run event",
+        "imgs": ["0-mdl-swim-run.webp"]
+    }
+]

@@ -1,0 +1,50 @@
+{
+    "title": "graphic design\nweb development",
+    "tel1": "+380972624656",
+    "telView1": "097-262-46-56",
+    "email": "shuandr@gmail.com",
+    "schedule": "ПН—ПТ: 10:00—18:00",
+    "vbr": "%2B380972624656",
+    "cats": [
+    {
+        "id": "rcnt",
+        "ua": "свіже",
+        "en": "recent"
+    },
+    {
+        "id": "logo",
+        "ua": "брендинг",
+        "en": "branding"
+    },
+    {
+        "id": "wbst",
+        "ua": "веб-сайти",
+        "en": "web sites"
+    },
+    {
+        "id": "pckg",
+        "ua": "упаковка",
+        "en": "packaging"
+    },
+    {
+        "id": "dtp",
+        "ua": "дизайн і верстка",
+        "en": "editorial"
+    },
+    {
+        "id": "smm",
+        "ua": "соц-мережі",
+        "en": "social media"
+    },
+    {
+        "id": "mdl",
+        "ua": "медалі",
+        "en": "medals"
+    },
+    {
+        "id": "tshr",
+        "ua": "одяг",
+        "en": "T-shirt"
+    }]
+
+}
