@@ -334,115 +334,147 @@
         "imgs": ["0-logo-shrwd.webp", "1-logo-shrwd.webp"]
     },
     {
-        "id": "pckg-asia",
-        "year": "2021",
-        "imgPreview": "pckg-asia.webp",
-        "txtPreviewUA": "Упаковка для доставки продукції \n«Asia Foods»",
-        "txtPreviewEN": "Packaging for delivery Asia Foods",
-        "imgs": ["0-pckg-asia.webp"]
-    },
-    {
-        "id": "pckg-kpc-serek",
-        "year": "2017",
-        "imgPreview": "pckg-kpc-serek.webp",
-        "txtPreviewUA": "Серія етикеток плавлених сирків \nТМ «Купець»",
-        "txtPreviewEN": "Cheese labels for Kupec",
-        "imgs": ["0-pckg-kpc-serek.webp"]
-    },
-    {
-        "id": "pckg-viola",
-        "year": "2017",
-        "imgPreview": "pckg-viola.webp",
-        "txtPreviewUA": "Тендерна пропозиція упаковок \nдля ТМ «Віола»",
-        "txtPreviewEN": "Packaging for Viola \n(tender proposal)",
-        "imgs": ["0-pckg-viola.webp"]
-    },
-    {
-        "id": "pckg-ftviol",
-        "year": "2016",
-        "imgPreview": "pckg-ftviol.webp",
-        "txtPreviewUA": "Серія упаковки фіто-чаїв ТМ «Фітовіол»",
-        "txtPreviewEN": "Packaging for Fitoviol teas\n(Viola brand)",
-        "imgs": ["0-pckg-ftviol.webp"]
-    },
-    {
-        "id": "pckg-kpc-cheese",
-        "year": "2016",
-        "imgPreview": "pckg-kpc-cheese.webp",
-        "txtPreviewUA": "Етикетки для сирів ТМ «Купець»",
-        "txtPreviewEN": "Cheese labels for Kupec",
-        "imgs": ["0-pckg-kpc-cheese.webp"]
-    },
-    {
-        "id": "pckg-vsesmk",
-        "year": "2016",
-        "imgPreview": "pckg-vsesmk.webp",
-        "txtPreviewUA": "Етикетки для ікри та упаковка масла\nТМ «Всесмак»",
-        "txtPreviewEN": "Caviar labels & butter packaging \nfor Vsesmak",
-        "imgs": ["0-pckg-vsesmk.webp"]
-    },
-    {
-        "id": "pckg-bee",
-        "year": "2013",
-        "imgPreview": "pckg-bee.webp",
-        "txtPreviewUA": "Серія етикеток для меду \n«Весела бджілка»",
-        "txtPreviewEN": "Honey labels for Happy Bee brand",
-        "imgs": ["0-pckg-bee.webp"]
-    },
-    {
-        "id": "mdl-bosphor",
-        "year": "2020",
-        "imgPreview": "mdl-bosphor.webp",
-        "txtPreviewUA": "Серія медалей для учасників запливів\nчерез Босфор та Дарданелли",
-        "txtPreviewEN": "Set of medals for Bosphor & Dardanelles swim event",
-        "imgs": ["0-mdl-bosphor.webp"]
-    },
-    {
-        "id": "mdl-indi-swin-rcnt",
-        "year": "2019-2021",
-        "imgPreview": "mdl-indi-swin.webp",
-        "txtPreviewUA": "Серія медалей змагань \nIndependence-swim 2019—2021 ",
-        "txtPreviewEN": "Set of medals for\nIndependence-swim 2019—2022",
-        "imgs": ["0-mdl-indi-swin.webp"]
-    },
-    {
-        "id": "mdl-kaiser-rcnt",
-        "year": "2020",
-        "imgPreview": "mdl-kaiser.webp",
-        "txtPreviewUA": "Медаль для забігу \nKaiserwald Cup 2020",
-        "txtPreviewEN": "Medal for run event\nKaiserwald Cup 2021",
-        "imgs": ["0-mdl-kaiser.webp"]
-    },
-    {
-        "id": "mdl-night-swim",
-        "year": "2020",
-        "imgPreview": "mdl-night-swim.webp",
-        "txtPreviewUA": "Медаль для нічного запливу клубу Swim4U",
-        "txtPreviewEN": "Medal for night swim event \nof Swim4U club",
-        "imgs": ["0-mdl-night-swim.webp"]
-    },
-    {
-        "id": "mdl-quarant",
-        "year": "2020",
-        "imgPreview": "mdl-quarant.webp",
-        "txtPreviewUA": "Медаль для віртуального забігу \nQuarantine Half Marathon 2020",
-        "txtPreviewEN": "Medal for virtual run event\nQuarantine Half Marathon 2021",
-        "imgs": ["0-mdl-quarant.webp"]
-    },
-    {
-        "id": "mdl-swim-first-km",
-        "year": "2021",
-        "imgPreview": "mdl-swim-first-km.webp",
-        "txtPreviewUA": "Серія медалей для клубу Swim4U\nза подолання першого кілометра",
-        "txtPreviewEN": "Set of medals for Swim4U club\nMy first kilometer",
-        "imgs": ["0-mdl-swim-first-km.webp"]
-    },
-    {
-        "id": "mdl-swim-run",
-        "year": "2021",
-        "imgPreview": "mdl-swim-run.webp",
-        "txtPreviewUA": "Медаль для змагань Swim Run",
-        "txtPreviewEN": "Medal for Swim Run event",
-        "imgs": ["0-mdl-swim-run.webp"]
-    }
-]
+        "id": "smm-vitech-rcnt",
+        "year": "2019–2021",
+        "imgPreview": "smm-vitech.webp",
+        "txtPreviewUA": "Дизайн для соціальних мереж \nIT-компанії Vitech",
+        "txtPreviewEN": "Design for social media of Vitech company",
+        "imgs": ["0-smm-vitech.webp", "1-smm-vitech.webp", "2-smm-vitech.webp"]
+        },
+        {
+            "id": "smm-summit",
+            "year": "2020",
+            "imgPreview": "smm-summit.webp",
+            "txtPreviewUA": "Шаблон для соціальних мереж \nIT-компанії Vitech",
+            "txtPreviewEN": "Template for social media of Vitech company",
+            "imgs": ["0-smm-summit.webp"]
+        },
+        {
+            "id": "smm-ucu",
+            "year": "2018–2021",
+            "imgPreview": "smm-ucu.webp",
+            "txtPreviewUA": "Дизайн для соціальних мереж \nУкраїнського Католицького Університету",
+            "txtPreviewEN": "Social media design for Ukrainian Catholic University",
+            "imgs": ["0-smm_ucu.webp", "1-smm_ucu.webp"]
+        },
+        {
+            "id": "smm-ucu-graduate",
+            "year": "2019–2021",
+            "imgPreview": "smm-ucu-graduate.webp",
+            "txtPreviewUA": "Дизайн випускних подій \nУкраїнського Католицького Університету",
+            "txtPreviewEN": "Graduate event design for Ukrainian Catholic University",
+            "imgs": ["0-smm-ucu-graduate.webp"]
+        },
+        {
+            "id": "pckg-asia",
+            "year": "2021",
+            "imgPreview": "pckg-asia.webp",
+            "txtPreviewUA": "Упаковка для доставки продукції \n«Asia Foods»",
+            "txtPreviewEN": "Packaging for delivery Asia Foods",
+            "imgs": ["0-pckg-asia.webp"]
+        },
+        {
+            "id": "pckg-kpc-serek",
+            "year": "2017",
+            "imgPreview": "pckg-kpc-serek.webp",
+            "txtPreviewUA": "Серія етикеток плавлених сирків \nТМ «Купець»",
+            "txtPreviewEN": "Cheese labels for Kupec",
+            "imgs": ["0-pckg-kpc-serek.webp"]
+        },
+        {
+            "id": "pckg-viola",
+            "year": "2017",
+            "imgPreview": "pckg-viola.webp",
+            "txtPreviewUA": "Тендерна пропозиція упаковок \nдля ТМ «Віола»",
+            "txtPreviewEN": "Packaging for Viola \n(tender proposal)",
+            "imgs": ["0-pckg-viola.webp"]
+        },
+        {
+            "id": "pckg-ftviol",
+            "year": "2016",
+            "imgPreview": "pckg-ftviol.webp",
+            "txtPreviewUA": "Серія упаковки фіто-чаїв ТМ «Фітовіол»",
+            "txtPreviewEN": "Packaging for Fitoviol teas\n(Viola brand)",
+            "imgs": ["0-pckg-ftviol.webp"]
+        },
+        {
+            "id": "pckg-kpc-cheese",
+            "year": "2016",
+            "imgPreview": "pckg-kpc-cheese.webp",
+            "txtPreviewUA": "Етикетки для сирів ТМ «Купець»",
+            "txtPreviewEN": "Cheese labels for Kupec",
+            "imgs": ["0-pckg-kpc-cheese.webp"]
+        },
+        {
+            "id": "pckg-vsesmk",
+            "year": "2016",
+            "imgPreview": "pckg-vsesmk.webp",
+            "txtPreviewUA": "Етикетки для ікри та упаковка масла\nТМ «Всесмак»",
+            "txtPreviewEN": "Caviar labels & butter packaging \nfor Vsesmak",
+            "imgs": ["0-pckg-vsesmk.webp"]
+        },
+        {
+            "id": "pckg-bee",
+            "year": "2013",
+            "imgPreview": "pckg-bee.webp",
+            "txtPreviewUA": "Серія етикеток для меду \n«Весела бджілка»",
+            "txtPreviewEN": "Honey labels for Happy Bee brand",
+            "imgs": ["0-pckg-bee.webp"]
+        },
+        {
+            "id": "mdl-bosphor",
+            "year": "2020",
+            "imgPreview": "mdl-bosphor.webp",
+            "txtPreviewUA": "Серія медалей для учасників запливів\nчерез Босфор та Дарданелли",
+            "txtPreviewEN": "Set of medals for Bosphor & Dardanelles swim event",
+            "imgs": ["0-mdl-bosphor.webp"]
+        },
+        {
+            "id": "mdl-indi-swin-rcnt",
+            "year": "2019-2021",
+            "imgPreview": "mdl-indi-swin.webp",
+            "txtPreviewUA": "Серія медалей змагань \nIndependence-swim 2019—2021 ",
+            "txtPreviewEN": "Set of medals for\nIndependence-swim 2019—2022",
+            "imgs": ["0-mdl-indi-swin.webp"]
+        },
+        {
+            "id": "mdl-kaiser-rcnt",
+            "year": "2020",
+            "imgPreview": "mdl-kaiser.webp",
+            "txtPreviewUA": "Медаль для забігу \nKaiserwald Cup 2020",
+            "txtPreviewEN": "Medal for run event\nKaiserwald Cup 2021",
+            "imgs": ["0-mdl-kaiser.webp"]
+        },
+        {
+            "id": "mdl-night-swim",
+            "year": "2020",
+            "imgPreview": "mdl-night-swim.webp",
+            "txtPreviewUA": "Медаль для нічного запливу клубу Swim4U",
+            "txtPreviewEN": "Medal for night swim event \nof Swim4U club",
+            "imgs": ["0-mdl-night-swim.webp"]
+        },
+        {
+            "id": "mdl-quarant",
+            "year": "2020",
+            "imgPreview": "mdl-quarant.webp",
+            "txtPreviewUA": "Медаль для віртуального забігу \nQuarantine Half Marathon 2020",
+            "txtPreviewEN": "Medal for virtual run event\nQuarantine Half Marathon 2021",
+            "imgs": ["0-mdl-quarant.webp"]
+        },
+        {
+            "id": "mdl-swim-first-km",
+            "year": "2021",
+            "imgPreview": "mdl-swim-first-km.webp",
+            "txtPreviewUA": "Серія медалей для клубу Swim4U\nза подолання першого кілометра",
+            "txtPreviewEN": "Set of medals for Swim4U club\nMy first kilometer",
+            "imgs": ["0-mdl-swim-first-km.webp"]
+        },
+        {
+            "id": "mdl-swim-run",
+            "year": "2021",
+            "imgPreview": "mdl-swim-run.webp",
+            "txtPreviewUA": "Медаль для змагань Swim Run",
+            "txtPreviewEN": "Medal for Swim Run event",
+            "imgs": ["0-mdl-swim-run.webp"]
+        }
+    ]
