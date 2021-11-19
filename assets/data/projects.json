@@ -500,5 +500,85 @@
         "txtPreviewUA": "Медаль для змагань Swim Run",
         "txtPreviewEN": "Medal for Swim Run event",
         "imgs": ["0-mdl-swim-run.webp"]
+    },
+    {
+        "id": "cloth-golos",
+        "year": "2020",
+        "imgPreview": "cloth-golos.webp",
+        "txtPreviewUA": "дизайн футболки \nдля партії Голос",
+        "txtPreviewEN": "T-shirt design \nfor Golos political party",
+        "imgs": ["0-cloth-golos.webp"]
+    },
+    {
+        "id": "cloth-summit-ararat",
+        "year": "2020",
+        "imgPreview": "cloth-summit-ararat.webp",
+        "txtPreviewUA": "дизайн футболки експедиції на Арарат \nдля Summit club ",
+        "txtPreviewEN": "T-shirt design for Ararat expedition \nof Summit club ",
+        "imgs": ["0-cloth-summit-ararat.webp"]
+    },
+    {
+        "id": "cloth-swim4u-indiday",
+        "year": "2020",
+        "imgPreview": "cloth-swim4u-indiday.webp",
+        "txtPreviewUA": "дизайн футболки змагань \nIndependence-swim",
+        "txtPreviewEN": "T-shirt design \nfor Independence-swim ",
+        "imgs": ["0-cloth-swim4u-indiday.webp"]
+    },
+    {
+        "id": "cloth-swim4u-7ocean",
+        "year": "2019",
+        "imgPreview": "cloth-swim4u-7ocean.webp",
+        "txtPreviewUA": "дизайн футболки для клубу Swim4U",
+        "txtPreviewEN": "T-shirt design \nfor Swim4U club",
+        "imgs": ["0-cloth-swim4u-7ocean.webp"]
+    },
+    {
+        "id": "cloth-plast-cheremosh",
+        "year": "2008–2018",
+        "imgPreview": "cloth-plast-cheremosh.webp",
+        "txtPreviewUA": "Серія футболок пластового водного вишколу «Черемош»",
+        "txtPreviewEN": "T-shirt designs for Plast white-water bootcamp \nCheremosh",
+        "imgs": ["0-cloth-plast-cheremosh.webp"]
+    },
+    {
+        "id": "cloth-bug-gorod",
+        "year": "2014",
+        "imgPreview": "cloth-bug-gorod.webp",
+        "txtPreviewUA": "дизайн футболки сплаву на канойках \nЗахідним Бугом",
+        "txtPreviewEN": "T-shirt design for canoe trip \non West Bug river",
+        "imgs": ["0-cloth-bug-gorod.webp"]
+    },
+    {
+        "id": "cloth-plast-mazury",
+        "year": "2014",
+        "imgPreview": "cloth-plast-mazury.webp",
+        "txtPreviewUA": "дизайн футболки пластової яхтової регати на Мазурських озерах",
+        "txtPreviewEN": "T-shirt design for Plast yacht regatta \non Mazury Lakes",
+        "imgs": ["0-cloth-plast-mazury.webp"]
+    },
+    {
+        "id": "cloth-plast-zavisha",
+        "year": "2014",
+        "imgPreview": "cloth-plast-zavisha.webp",
+        "txtPreviewUA": "дизайн футболки першого польсько-українського рейсу на вітрильнику Zawisza Czarny",
+        "txtPreviewEN": "T-shirt design for first Polish-Ukrainian race \non Zawisza Czarny ship",
+        "imgs": ["0-cloth-plast-zavisha.webp"]
+    },
+    {
+        "id": "cloth-plast-kmt2009",
+        "year": "2009",
+        "imgPreview": "cloth-plast-kmt2009.webp",
+        "txtPreviewUA": "дизайн футболки пластового морського табору на Чорному морі",
+        "txtPreviewEN": "T-shirt design for Plast scout sea camp \non Black sea",
+        "imgs": ["0-cloth-plast-kmt2009.webp"]
+    },
+    {
+        "id": "cloth-plast-bile",
+        "year": "2007",
+        "imgPreview": "cloth-plast-bile.webp",
+        "txtPreviewUA": "дизайн футболки пластового морського табору на озері Білому ",
+        "txtPreviewEN": "T-shirt design for Plast scout sea camp \non Bile Lake",
+        "imgs": ["0-cloth-plast-bile.webp"]
     }
 ]
