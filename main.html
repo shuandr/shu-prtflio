@@ -32,10 +32,25 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8ca0b4">
     <meta name="msapplication-TileColor" content="#8ca0b4">
     <meta name="theme-color" content="#8ca0b4">
+     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <script src="https://kit.fontawesome.com/0caeff61d9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <slick settings="mainSlickConfig">
+        <div ng-repeat="slide in projects | filter: heroCat">
+            <a href="#!/project" class=" white-bg" ng-click="selectProject(slide)">
+                <div class="hero-slider" style="background-image: url(assets/img/{[{slide.heroImg}]})">
+                    <div class="grid-x" style="height: 24%;">
+                        <div class="cell align-self-middle">
+                            <h4 class="pre uppercase white text-center" style="line-height: 1.25">{[{slide.heroTitle}]}</h4>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </slick><br>
     <ul class="menu align-center " style="margin-bottom: 1.2rem;">
         <li class="shu-menu white-bg dark" ng-repeat="cat in data.cats" ng-click="selectCat(cat.id)">
             {[{cat.name}]}
@@ -53,7 +68,7 @@
                         <img src="assets/img/preview/{[{proj.imgPreview}]}" alt="">
                         <div class="grid-x card-section ">
                             <div class="cell ">
-                                <div class="text-center dark pre">{[{proj.txtPreview}]}</div><br>
+                                <div class="text-center dark pre">{[{proj.title}]}</div><br>
                                 <div class="text-right shu-0">{[{proj.year}]}</div>
                             </div>
                         </div>
@@ -68,6 +83,8 @@
     <script src="https://code.angularjs.org/1.8.2/angular-sanitize.min.js"></script>
     <script src="assets/js_plugins/myAngular.js"></script>
     <script src="assets/js/app.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js_plugins/angular-slick.js"></script>
 </body>
 
 </html>

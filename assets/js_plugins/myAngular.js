@@ -1,4 +1,4 @@
-var app = angular.module('shuDesign', ['ngRoute', 'ngAnimate', 'ngSanitize']); // "ngAnimate",
+var app = angular.module('shuDesign', ['ngRoute', 'ngAnimate', 'ngSanitize', 'slickCarousel']); // "ngAnimate",
 
 app.config(['$compileProvider', "$routeProvider", "$interpolateProvider",
 
@@ -24,7 +24,8 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
 
 
     $scope.$on('$viewContentLoaded', function(event) {
-        $scope.whatView();
+        $scope.mainView = ($route.current.templateUrl !== 'main.html') ? false : true;
+
         $timeout(function() {
             if ($route.current.templateUrl == 'project.html') {
                 $location.search({ id: $scope.selectedProject.id });
@@ -33,33 +34,34 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
         }, 200);
     });
 
+    $scope.mainSlickConfig = {
+        arrows: false,
+        autoplay: true,
+        pauseOnHover: false,
+        autoplaySpeed: 2400,
+        speed: 1200,
+        fade: true,
+    };
 
     var urlQuery = $location.search();
 
     $http.get("assets/data/data.json").then(function(response) {
         $scope.data = response.data;
-        if (urlQuery.cat) {
-            $scope.selectedCat = urlQuery.cat;
-        } else {
-            $scope.selectedCat = $scope.data.cats[0].id;
-
-        }
-        $scope.data.cats.forEach(function(obj) {
-            obj.name = obj.ua;
-        });
+        $scope.selectedCat = urlQuery.cat ? urlQuery.cat : $scope.data.cats[0].id;
 
     });
     $http.get("assets/data/projects.json").then(function(response) {
         $scope.projects = response.data;
+        $scope.heroCat = 'cmplx';
         $scope.sortKey = 'year';
         $scope.reverse = true;
-
-        $scope.projects.forEach(function(obj) {
-            obj.txtPreview = obj.txtPreviewUA;
-        });
-        $scope.data.cats.forEach(function(obj) {
-            obj.name = obj.ua;
-        });
+        //language select
+        if (navigator.language == "uk" || navigator.language == "ua") {
+            $scope.setLang = "en";
+            $scope.changeLang();
+            
+        }
+        //END language select
 
         if (urlQuery.id) {
             for (var i = $scope.projects.length - 1; i >= 0; i--) {
@@ -77,20 +79,13 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
 
     });
 
-    $scope.setLang = "en";
 
-    $scope.whatView = function() {
-        if ($route.current.templateUrl !== 'main.html') {
-            $scope.mainView = false;
-        } else {
-            $scope.mainView = true;
-        }
-
-    };
     $scope.changeLang = function() {
         if ($scope.setLang == "en") {
             $scope.projects.forEach(function(obj) {
-                obj.txtPreview = obj.txtPreviewEN;
+                obj.title = obj.titleEN;
+                obj.heroTitle = obj.heroTitleEN;
+
             });
             $scope.data.cats.forEach(function(obj) {
                 obj.name = obj.en;
@@ -99,14 +94,16 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
 
         } else {
             $scope.projects.forEach(function(obj) {
-                obj.txtPreview = obj.txtPreviewUA;
+                obj.title = obj.titleUA;
+                obj.heroTitle = obj.heroTitleUA;
+
             });
             $scope.data.cats.forEach(function(obj) {
                 obj.name = obj.ua;
             });
             $scope.setLang = "en";
         }
-    };
+    }
 
     $scope.selectProject = function(proj) {
         $scope.selectedProject = proj;
@@ -132,27 +129,24 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
     };
 
     $scope.nextProject = function() {
-        arr = $scope.projects;
-        index = arr.indexOf($scope.selectedProject);
-        if (index < arr.length - 1) {
-            $scope.selectedProject = arr[index + 1];
-        } else {
-            $scope.selectedProject = arr[0];
-        };
-
+        var arr = $scope.projects;
+        var i = arr.indexOf($scope.selectedProject);
+        $scope.selectedProject = (i < arr.length - 1) ? arr[i + 1] : arr[0];
+        /*
+                if (index < arr.length - 1) {
+                    $scope.selectedProject = arr[index + 1];
+                } else {
+                    $scope.selectedProject = arr[0];
+                };
+        */
         $location.search({ id: $scope.selectedProject.id });
 
     };
 
     $scope.prevProject = function() {
-        arr = $scope.projects;
-        index = arr.indexOf($scope.selectedProject);
-        if (index !== 0) {
-            $scope.selectedProject = arr[index - 1];
-
-        } else {
-            $scope.selectedProject = arr[arr.length - 1];
-        };
+        var arr = $scope.projects;
+        var i = arr.indexOf($scope.selectedProject);
+        $scope.selectedProject = (i !== 0) ? arr[i - 1] : arr[arr.length - 1];
         $location.search({ id: $scope.selectedProject.id });
 
     };
