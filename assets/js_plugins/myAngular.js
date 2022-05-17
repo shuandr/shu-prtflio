@@ -1,10 +1,12 @@
 var app = angular.module('shuDesign', ['ngRoute', 'ngAnimate', 'ngSanitize', 'slickCarousel']); // "ngAnimate",
 
-app.config(['$compileProvider', "$routeProvider", "$interpolateProvider",
+app.config(['$compileProvider', "$routeProvider", "$interpolateProvider", "$locationProvider",
 
-    function($compileProvider, $routeProvider, $interpolateProvider) {
+    function($compileProvider, $routeProvider, $interpolateProvider, $locationProvider) {
         $interpolateProvider.startSymbol('{[{');
         $interpolateProvider.endSymbol('}]}');
+        // $locationProvider.html5Mode(true);
+        $locationProvider.hashPrefix('');
         $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|viber|tel|mailto|chrome-extension):/);
         $routeProvider
             .when('/main', {
@@ -26,12 +28,10 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
     $scope.$on('$viewContentLoaded', function(event) {
         $scope.mainView = ($route.current.templateUrl !== 'main.html') ? false : true;
 
-        $timeout(function() {
             if ($route.current.templateUrl == 'project.html') {
                 $location.search({ id: $scope.selectedProject.id });
 
             }
-        }, 200);
     });
 
     $scope.mainSlickConfig = {
@@ -47,7 +47,7 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
 
     $http.get("assets/data/data.json").then(function(response) {
         $scope.data = response.data;
-        $scope.selectedCat = urlQuery.cat ? urlQuery.cat : $scope.data.cats[0].id;
+        $scope.selectedCat = urlQuery.category ? urlQuery.category : $scope.data.cats[0].id;
 
     });
     $http.get("assets/data/projects.json").then(function(response) {
@@ -59,7 +59,7 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
         if (navigator.language == "uk" || navigator.language == "ua") {
             $scope.setLang = "en";
             $scope.changeLang();
-            
+
         }
         //END language select
 
@@ -71,7 +71,6 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
                     $scope.selectedProject = proj;
                     break;
                 }
-
             }
         } else {
             $scope.selectedProject = $scope.projects[0];
@@ -110,16 +109,18 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
         $location.search({ id: proj.id });
 
 
-    };
+    }
 
-    $scope.selectCat = function(cat) {
-        $scope.selectedCat = cat;
+    $scope.selectCat = function(index) {
+
+        $scope.selectedCat = $scope.data.cats[index].id;
+        $scope.menuCatSel = index;
         if ($route.current.templateUrl !== 'main.html') {
-            $location.url('/main');
+            $location.url('/main#projects');
         }
-        $location.search({ cat: cat });
+        $location.search({ category: $scope.selectedCat });
 
-    };
+    }
 
 
 
@@ -132,13 +133,7 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
         var arr = $scope.projects;
         var i = arr.indexOf($scope.selectedProject);
         $scope.selectedProject = (i < arr.length - 1) ? arr[i + 1] : arr[0];
-        /*
-                if (index < arr.length - 1) {
-                    $scope.selectedProject = arr[index + 1];
-                } else {
-                    $scope.selectedProject = arr[0];
-                };
-        */
+        
         $location.search({ id: $scope.selectedProject.id });
 
     };

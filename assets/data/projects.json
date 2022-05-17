@@ -61,14 +61,14 @@
 
 
     {
-        "id": "wbst-dmdoor-rcnt",
+        "id": "wbst-dmwood-rcnt",
         "year": "2020",
         "imgPreview": "wbst-dmdoor.webp",
-        "titleUA": "Веб-сайт для виробника ексклюзивних дверей \nDM Doors",
-        "titleEN": "web-site for DM Doors company",
+        "titleUA": "Веб-сайт для виробника ексклюзивних меблів та дверей \nDM Wood",
+        "titleEN": "web-site for DM Wood company",
         "imgs": ["0-dmd.webp"],
-        "extLink": "https://d-m.com.ua",
-        "extLinkView": "d-m.com.ua"
+        "extLink": "https://dmwood.com.ua",
+        "extLinkView": "dmwood.com.ua"
     },
     {
         "id": "wbst-klnd-rcnt",

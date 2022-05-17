@@ -47,7 +47,7 @@
         </div>
         <header>
             <div ng-show="mainView" class="lang-select s-bold" ng-click="changeLang()">{[{setLang}]}</div>
-            <a href="#!/main" ng-show="!mainView" class="lang-select s-bold"><i class="fas fa-arrow-left "></i></a>
+            <a href="#/main" ng-show="!mainView" class="lang-select s-bold"><i class="fas fa-arrow-left "></i></a>
             <div id="top" class="grid-x shu-header white-bg align-center-middle dark">
                 <div class="cell  auto text-right ">
                     <div class="pre ">{[{data.title}]}</div>
@@ -66,7 +66,7 @@
         </header>
         <div class="shu-header shu-sticky shu-bg align-center-middle">
             <ul class="menu align-center ">
-                <li class="shu-menu white-bg" ng-repeat="cat in data.cats" ng-click="selectCat(cat.id)">{[{cat.name}]}</li>
+                <li class="shu-menu white-bg" ng-repeat="cat in data.cats" ng-click="selectCat($index)" ng-class="{menuCatSel: $index == menuCatSel}"> {[{cat.name}]}</li>
             </ul>
         </div>    <main ng-view class="main"></main>
         <br><br>
