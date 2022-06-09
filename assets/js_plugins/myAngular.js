@@ -102,7 +102,7 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
             });
             $scope.setLang = "en";
         }
-    }
+    };
 
     $scope.selectProject = function(proj) {
         $scope.selectedProject = proj;
