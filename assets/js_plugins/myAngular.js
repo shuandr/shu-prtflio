@@ -58,9 +58,9 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
         //language select
         if (navigator.language == "uk" || navigator.language == "ua") {
             $scope.setLang = "en";
-            $scope.changeLang();
 
         }
+            $scope.changeLang();
         //END language select
 
         if (urlQuery.id) {
@@ -102,7 +102,7 @@ app.controller('shuDesignCtrl', function($scope, $http, $route, $routeParams, $l
             });
             $scope.setLang = "en";
         }
-    };
+    }
 
     $scope.selectProject = function(proj) {
         $scope.selectedProject = proj;
