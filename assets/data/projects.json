@@ -58,10 +58,73 @@
         "titleEN": "brand identity & complete design support \nof If-Race adventure competitions",
         "imgs": ["0-cmplx-ifrace.webp"]
     },
-
+    {
+        "id": "smm-DF-rcnt",
+        "year": "2025",
+        "imgPreview": "smm-DF.webp",
+        "titleUA": "Дизайн для соціальних мереж \n«Defence Robotics Ua»",
+        "titleEN": "Social media design \nfor «Defence Robotics Ua»",
+        "imgs": ["0-smm-DF.webp"]
+    },
+    {
+        "id": "logo-adascan-rcnt",
+        "year": "2025",
+        "imgPreview": "logo-adascan.webp",
+        "titleUA": "Логотип та айдентика для кабінету \nдентальної діагностики «AdaScan»",
+        "titleEN": "Logo & identity \nfor the dental diagnostics office ",
+        "imgs": ["0-logo-adascan.webp", "1-logo-adascan.webp"]
+    },
+    {
+        "id": "logo-filtr-rcnt",
+        "year": "2025",
+        "imgPreview": "logo-filtr.webp",
+        "titleUA": "Логотип та айдентика \nЦентру сексології та психотерапії \n«без фільтрів»",
+        "titleEN": "Logo & identity \nof the Center for Sexology & Psychotherapy \n«without filters»",
+        "imgs": ["0-logo-filtr.webp", "1-logo-filtr.webp"]
+    },
+    {
+        "id": "logo-leo-rcnt",
+        "year": "2025",
+        "imgPreview": "logo-leo.webp",
+        "titleUA": "Логотип та айдентика \nдля кафетерію «Леокафе»",
+        "titleEN": "Logo & identity \nfor the cafeteria «LeoCafe»",
+        "imgs": ["0-logo-leo.webp", "1-logo-leo.webp"]
+    },
+    {
+        "id": "logo-inna-rcnt",
+        "year": "2025",
+        "imgPreview": "logo-inna.webp",
+        "titleUA": "Логотип та айдентика \nдля студії макіяжу і тату «Інна»",
+        "titleEN": "Logo & identity \nfor the make-up & tattoo studio ",
+        "imgs": ["0-logo-inna.webp", "1-logo-inna.webp"]
+    },
+    {
+        "id": "logo-titan-rcnt",
+        "year": "2025",
+        "imgPreview": "logo-titan.webp",
+        "titleUA": "Логотип та айдентика \nреабілітаційної програми для ветеранів \n«Титани під вітрилами» ",
+        "titleEN": "Logo & Identity \nfor Veterans Rehabilitation Program \n«Titans Under Sail»",
+        "imgs": ["0-logo-titan.webp", "1-logo-titan.webp"]
+    },
+    {
+        "id": "smm-ULEAD-rcnt",
+        "year": "2024",
+        "imgPreview": "smm-ULEAD.webp",
+        "titleUA": "Дизайн для соціальних мереж \n«U-LEAD з Європою»",
+        "titleEN": "Social media design \nfor ULEAD with Europe",
+        "imgs": ["0-smm-ULEAD.webp"]
+    },
+    {
+        "id": "dtp-TT-rcnt.webp",
+        "year": "2023",
+        "imgPreview": "dtp-TT.webp",
+        "titleUA": "Дизайн вивіски і таблиць \nдля «Прихистку ТТ» на горі Парашка",
+        "titleEN": "Design of the sign and tables \nfor the «TT Shelter» on Mount Parashka",
+        "imgs": ["0-dtp-TT.webp"]
+    },
 
     {
-        "id": "wbst-dmwood-rcnt",
+        "id": "wbst-dmwood",
         "year": "2020",
         "imgPreview": "wbst-dmdoor.webp",
         "titleUA": "Веб-сайт для виробника ексклюзивних меблів та дверей \nDM Wood",
@@ -81,7 +144,7 @@
         "extLinkView": "rama.lviv.ua"
     },
     {
-        "id": "wbst-r4u-rcnt",
+        "id": "wbst-r4u",
         "year": "2020",
         "imgPreview": "wbst-r4u.webp",
         "titleUA": "Лендінг для спортивного клубу \nRun4U",
@@ -112,7 +175,7 @@
     },
 
     {
-        "id": "dtp-buk-rcnt",
+        "id": "dtp-buk",
         "year": "2020",
         "imgPreview": "dtp-buk.webp",
         "titleUA": "Дизайн і верстка ґлянцевого журналу\nNTN-Буковель 2011–2020. 15 видань",
@@ -187,7 +250,7 @@
         "imgs": ["0-logo-river.webp"]
     },
     {
-        "id": "logo-runkumpel-rcnt",
+        "id": "logo-runkumpel",
         "year": "2020",
         "imgPreview": "logo-runkumpel.webp",
         "titleUA": "Логотип для фанового пивного забігу \n«Run Kumpel Run»",
@@ -203,7 +266,7 @@
         "imgs": ["0-logo-summit.webp"]
     },
     {
-        "id": "logo-granat-rcnt",
+        "id": "logo-granat",
         "year": "2018",
         "imgPreview": "logo-granat.webp",
         "titleUA": "Логотип та айдентика онлайн-сервісу \nавтоматизації закупівель для HoReCa «Granat garden»",
@@ -211,7 +274,7 @@
         "imgs": ["0-logo-grnt.webp"]
     },
     {
-        "id": "logo-hayduk-rcnt",
+        "id": "logo-hayduk",
         "year": "2018",
         "imgPreview": "logo-hayduk.webp",
         "titleUA": "Логотип для дитячої клініки \n«Гайдук педіатрія»",
@@ -227,7 +290,7 @@
         "imgs": ["0-logo-r4u.webp", "0-logo-s4u.webp", "0-logo-rd4u.webp"]
     },
     {
-        "id": "logo-dmdoors-rcnt",
+        "id": "logo-dmdoors",
         "year": "2017",
         "imgPreview": "logo-dmdoors.webp",
         "titleUA": "Логотип та айдентика для виробника \nексклюзивних дверей DM Doors",
@@ -243,7 +306,7 @@
         "imgs": ["0-logo-embrl.webp"]
     },
     {
-        "id": "logo-ifrace-rcnt",
+        "id": "logo-ifrace",
         "year": "2017",
         "imgPreview": "logo-ifrace.webp",
         "titleUA": "Логотип для мультиспортивних змагань \nнавколо Івано-Франківська IF-race",
