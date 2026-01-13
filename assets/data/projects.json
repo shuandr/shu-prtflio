@@ -514,6 +514,62 @@
         "imgs": ["0-smm-ucu-graduate.webp"]
     },
     {
+        "id": "pckg-rumo-brand-rcnt",
+        "year": "2025",
+        "imgPreview": "pckg-rumo-brand.webp",
+        "txtPreviewUA": "Концепція дизайну упаковки \nмолочної продукції для ТМ «Румо»",
+        "txtPreviewEN": "Packaging design concept \nof dairy products for TM «Rumo»",
+        "imgs": "0-pckg-rumo-brand.webp"
+    },
+    {
+        "id": "pckg-rumo",
+        "year": "2025",
+        "imgPreview": "pckg-rumo.webp",
+        "txtPreviewUA": "Серія етикеток згущеного молока \nТМ «Купець»",
+        "txtPreviewEN": "A series of condensed milk labels \nTM «Kupec»",
+        "imgs": ["0-pckg-rumo.webp"]
+    },
+    {
+        "id": "pckg-asia-table",
+        "year": "2025",
+        "imgPreview": "pckg-asia-table.webp",
+        "txtPreviewUA": "Брендування столів-бочок \nдля мережі «Азіяфудс»",
+        "txtPreviewEN": "Branding of barrel tables \nfor «Asia Foods»",
+        "imgs": ["0-pckg-asia-table.webp"]
+    },
+    {
+        "id": "pckg-floria-rcnt",
+        "year": "2023",
+        "imgPreview": "pckg-floria.webp",
+        "txtPreviewUA": "Серія етикеток водорозчинних \nта гранульованих добрив для ТМ «Флорія»",
+        "txtPreviewEN": "A series of labels for water-soluble \nand granular fertilizers TM «Floria»",
+        "imgs": ["0-pckg-floria.webp","1-pckg-floria.webp"]
+    },
+    {
+        "id": "pckg-upg",
+        "year": "2023",
+        "imgPreview": "pckg-upg.webp",
+        "txtPreviewUA": "Дизайн скляночок \nдля мережі АЗК «UPG»",
+        "txtPreviewEN": "Design of cups\nfor the gas station chain «UPG»",
+        "imgs": ["0-pckg-upg.webp"]
+    },
+    {
+        "id": "pckg-asia-pos",
+        "year": "2023",
+        "imgPreview": "pckg-asia-pos.webp",
+        "txtPreviewUA": "Брендування стелажа \nдля мережі «Азіяфудс»",
+        "txtPreviewEN": "POS branding \nfor «Asia Foods»",
+        "imgs": ["0-pckg-asia-pos.webp"]
+    },
+    {
+        "id": "pckg-asia-rcnt",
+        "year": "2023",
+        "imgPreview": "pckg-asia-2.webp",
+        "txtPreviewUA": "Упаковка для доставки продукції \nоновленого бренду «Asia Foods»",
+        "txtPreviewEN": "Packaging design \nfor «Asia Foods» ",
+        "imgs": ["0-pckg-asia-2.webp","1-pckg-asia-2.webp"]
+    },
+    {
         "id": "pckg-asia",
         "year": "2021",
         "imgPreview": "pckg-asia.webp",
