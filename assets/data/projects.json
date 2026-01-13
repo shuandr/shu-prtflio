@@ -519,7 +519,7 @@
         "imgPreview": "pckg-rumo-brand.webp",
         "titleUA": "Концепція дизайну упаковки \nмолочної продукції для ТМ «Румо»",
         "titleEN": "Packaging design concept \nof dairy products for TM «Rumo»",
-        "imgs": "0-pckg-rumo-brand.webp"
+        "imgs": ["0-pckg-rumo-brand.webp"]
     },
     {
         "id": "pckg-rumo",
