@@ -103,7 +103,7 @@
         "year": "2025",
         "imgPreview": "logo-titan.webp",
         "titleUA": "Логотип та айдентика \nреабілітаційної програми для ветеранів \n«Титани під вітрилами» ",
-        "titleEN": "Logo & Identity \nfor Veterans Rehabilitation Program \n«Titans Under Sail»",
+        "titleEN": "Logo & Identity \nfor Veterans Rehabilitation Program \n«Titans Under Sails»",
         "imgs": ["0-logo-titan.webp", "1-logo-titan.webp"]
     },
     {
@@ -514,7 +514,7 @@
         "imgs": ["0-smm-ucu-graduate.webp"]
     },
     {
-        "id": "pckg-rumo-brand-rcnt",
+        "id": "pckg-rumo-brand",
         "year": "2025",
         "imgPreview": "pckg-rumo-brand.webp",
         "titleUA": "Концепція дизайну упаковки \nмолочної продукції для ТМ «Румо»",
